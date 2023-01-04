@@ -13,6 +13,7 @@
     background: #FD6E0A;
     border: 0;
     padding: 18px 36px;
+    border-radius: 5px;
 }
 .header{
     background: #FFF8F3;
@@ -160,4 +161,28 @@ li{
 .resume-btn{
     text-align: center;
     margin-top: 50px;
+}
+
+/* contract section */
+.contract{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contract .section-title{
+    text-align: left;
+}
+.contract input[type="text"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contract a{
+    text-decoration: none;
+}
+.contract-dis{
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
